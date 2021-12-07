@@ -1,0 +1,149 @@
+.sidebar{
+    margin-top: 10px;
+}
+
+.sidebar-button{
+    flex: display;
+}
+
+.sidebar-button button{
+    /* background-color: transparent; */
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px #ccc;
+    width: 11rem;
+}
+
+.sidebar-button button:hover{
+    background-color: rgb(170, 164, 164);
+}
+
+.sidebar-button img{
+    height: 30px;
+    width: 32px;
+    opacity: 1;
+}
+
+.sidebar-button button span{
+    font-size: 17px;
+    color:black;
+    margin-right: 8px;
+    margin-left: 5px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Sidebar-options{
+    margin-top: 10px;
+}
+
+.Sidebar_opt{
+    display: flex;
+    align-items: center;
+    padding: 5px 12px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.Sidebar_opt:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.Sidebar_opt span{
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(78, 78, 78);
+}
+
+.sidebar-opt-active{
+    background-color: #e8f0fe;
+}
+
+.sidebar-opt-active span{
+    color: #1367d2;
+}
+
+.Sidebar_opt svg{
+    color: gray;
+}
+.sidebar-opt-active svg{
+    color: #1367d2;
+}
+
+.progress_bar{
+    margin-top: 0px;
+    padding: 0px 15px;
+}
+
+.progress_bar progress{
+    width: 60%;
+}
+
+.progress_bar span{
+    display: block;
+    font-size: 13px;
+    color:rgb(182, 174, 174);
+}
+
+.modal-pop{
+    top: 50%;
+    background-color: #fff;
+    width: 500px;
+    height: 10rem;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modalHeading{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+
+input{
+    margin-top: 10px;
+    width: 60%;
+    padding: 15px;
+    background-color: rgb(226, 226, 226);
+}
+
+input.post-submit{
+    width: 100%;
+    background: rgb(161, 210, 224);
+    padding: 10px 20px;
+    color: black;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.uploading{
+    width: 90%;
+    background: green;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    text-align: center;
+}
