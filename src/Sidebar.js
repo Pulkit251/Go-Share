@@ -106,10 +106,10 @@ function Sidebar() {
                 <span>Backup</span>
             </div>
 
-            <div className="progress_bar">
+            {/* <div className="progress_bar">
                 <progress value="20" max="100"/>
                 <span>2Gb of 20Gb Used</span>
-            </div>
+            </div> */}
         </div>
         </>
     )
